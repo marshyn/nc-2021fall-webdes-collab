@@ -11,10 +11,59 @@ body{
 	background-color: #fff;
 	height: 1200px;
 }
+
+/* navigational header CSS */
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #789B2C;
+}
+
+li.header {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.cart {
+  display: inline-block;
+  float: right;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+img.cart {
+	color: white;
+}
+
+#cart{
+	float: right;
+	margin-top: -50px;
+	margin-right: 10px;
+}
+
+li a:hover {
+  background-color: #456F18;
+}
+/* navigational header CSS end */
+
+
 h1{
 	text-align: center;
 	margin-bottom: 10px;
 }
+
 #cart{
 	float: right;
 	margin-top: -50px;
@@ -34,7 +83,9 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
-	margin-top: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 table th{
 	text-align: center;
@@ -42,8 +93,16 @@ table th{
 table td{
 	text-align: justify;
 }
+
 #left-side {
 	float: left;
+	width:  370;
+	margin:  10px;
+	text-align: left;
+}
+
+#middle {
+	float: center;
 	width:  370;
 	margin:  10px;
 	text-align: left;
@@ -55,6 +114,7 @@ table td{
 	margin:  10px;
 	text-align: left;
 }
+
 #option-1{
 	position: absolute;
 	left: 80px;
