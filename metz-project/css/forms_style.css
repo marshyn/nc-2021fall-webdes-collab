@@ -1,0 +1,30 @@
+/* forms styling sheet */
+
+@import url("typography.css"); /* import fonts for consistency */
+
+input#submit {
+  display: inline-block;
+  float: right;
+
+  padding: 9px;
+  margin: 20px;
+
+  border-radius: 6px;
+  font-size: 21px;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: linear-gradient(#FDA9DF 0%, #EE64BC 51%, #C0378F 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
+
+  cursor: pointer;
+}
+
+input#submit:hover {
+  background: #FDA9DF;
+}
+
+input#submit:active {
+  background: #C0378F;
+}
